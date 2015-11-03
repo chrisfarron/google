@@ -143,15 +143,16 @@ ul#right li a {
     letter-spacing: 0.1px;
     font-size: 18px;
 }
-
-@media screen and (max-width: 1000px) {
+/*Media Queries*/
+@media (max-width: 1000px) {
 	#searchBox input {
     	width: 650px;
     }
 	ul#left, ul#right {
 	    margin: 5px 0;
 	}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
 	* {
 		font-size: 15px;
 	}
@@ -167,27 +168,35 @@ ul#right li a {
 	    padding: 142px 0 7px 0;
 	}
 	#searchBox input {
-    	width: 400px;
+    	width: 60%;
     	height: 24px;
     	font-size: 15px;
+    }	
+@media screen and (max-width: 594px) {
+		#searchBox input {
+    	width: 60%;
+    }    
+@media screen and (max-width: 591px) {
+		#right {
+    	display: none;
     }
-    ul#left, 
-	ul#right {
-		margin: 5px;
-	}
-    ul#left {
-	    padding-left: 0;
-	}
-	ul#right {
-	    padding-right: 0; 
-	    padding-left: 0;
-	}
-	ul#left li a, ul#right li a {
-	    margin: 2px 4px 0;
-	    font-size: 15px;
-	}
-	div.buttons button {
-		padding: 5px 12px;
-	}
+@media screen and (max-width: 590px) {
+		#left {
+    	text-align: center;
+    	margin-left: 20%;
+    }
+@media screen and (max-width: 440px) {
+		.profile_img {
+    	display: none;  	
+    }
+@media screen and (max-width: 390px) {
+		#share {
+    	display: none;  
+    }	  	
+@media screen and (max-width: 309px) {
+		
+    }	  	
+   
+
 
 }
